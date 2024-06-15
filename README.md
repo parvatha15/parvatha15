@@ -5,13 +5,13 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=parvatha15" alt="parvatha15" /></a> </p>
 
-- 🌱 I’m currently learning **monogoDB**
+- 🌱 I’m currently learning **springboot**
 
 - 👨‍💻 My Portfolio Website [https://zingy-axolotl-1df1c7.netlify.app](https://zingy-axolotl-1df1c7.netlify.app)
 
 - 📫 How to reach me **Parvathasaravanan20@gmail.com**
 
-- 📄 About My Resume link [https://app.luminpdf.com/viewer/66179035e773b643eb6ff4f8](https://app.luminpdf.com/viewer/66179035e773b643eb6ff4f8)
+- 📄 About My Resume link [https://drive.google.com/file/d/1C23MPNo1H1ZkR3-gukV5Lx1P5IFAuNlL/view?usp=drive_link)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
