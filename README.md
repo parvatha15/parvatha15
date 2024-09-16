@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **springboot**
 
-- 👨‍💻 My Portfolio Website [https://zingy-axolotl-1df1c7.netlify.app](https://zingy-axolotl-1df1c7.netlify.app)
+- 👨‍💻 My Portfolio Website [https://sprightly-macaron-97ca44.netlify.app/)
 
 - 📫 How to reach me **Parvathasaravanan20@gmail.com**
 
