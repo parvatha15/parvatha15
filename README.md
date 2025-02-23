@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm ParvathaSaravanan</h1>
-<h3 align="center">A passionate software Developer in karaikudi</h3>
-
+<h3 align="center">A passionate software Developer and Graphic Designer in karaikudi</h3>
+<h3 align="center">"I have three months of experience in graphic designing</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=parvatha15&label=Profile%20views&color=0e75b6&style=flat" alt="parvatha15" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=parvatha15" alt="parvatha15" /></a> </p>
 
-- 🌱 I’m currently learning **springboot**
+- 🌱 I’m currently learning **React**
 
 - 👨‍💻 My Portfolio Website [https://sprightly-macaron-97ca44.netlify.app/)
 
