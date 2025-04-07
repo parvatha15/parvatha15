@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+*{
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	height: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(image.jpg.jfif);
+	/* background-size:contain; */
+	background-position: center;
+	/* background-repeat: no-repeat; */
+	
+
+}
+.container{
+	width: 350px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+}
+.container input{
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #777777;
+	margin-bottom: 20px;
+	font-size: 16px;
+	outline: none;
+}
+.btn{
+	border: none !important;
+	cursor: pointer;
+	background-color: #3249cd;
+	margin: 15px 0;
+	font-size: 14px;
+	width:100%;
+	padding: 20px;
+}
+.btn:hover{
+	background-color: #8a6e15;
+	color: white;
+}
+</style>
+
+
+<head>
+<script>
+function emailSend(){
+
+var userName = document.getElementById('name').value;
+var phone = document.getElementById('phone').value;
+var email = document.getElementById('email').value;
+
+var messageBody = "Name " + userName +
+"<br/> Phone " + phone +
+"<br/> Email " + email;
+Email.send({
+Host : "smtp.elasticemail.com",
+Username :"parvathasaravanan20@gmail.com",
+Password :"F0629C7CC13FDCA67A0196ECDEC629BF81AC",
+To :'parvathasaravanan20@gmail.com',
+From :"parvathasaravanan20@gmail.com",
+Subject : "This is the subject",
+Body : messageBody
+}).then(
+message =>{
+  if(message=='OK'){
+	  swal("Successful", "You clicked the button!", "success");
+  }
+  else{
+	  swal("Error", "You clicked the button!", "error");
+  }
+}
+);
+}
+</script>
+
+
+</head>
+<body>
+	<div class="container">
+		<h2>Get in Touch</h2>
+		<form onsubmit="emailSend(); reset(); return false;">
+			<input type="text" id="name" placeholder="name" name="name" required>
+			<input type="text" id="phone" placeholder="phone" name="phone" required>
+			<input type="email" id="email" placeholder="email" name="email" required>
+			<input type="text" id="text" placeholder="message" name="text" required>
+			<button type="submit" class="btn">submit</button>
+		</form>
+	</div>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js">
+	</script>
+
+	
+</body>
+</html>
